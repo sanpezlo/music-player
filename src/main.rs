@@ -1,4 +1,5 @@
 mod components;
+mod pages;
 
 use leptos::*;
 use leptos_meta::*;
@@ -15,6 +16,7 @@ fn main() {
 #[component]
 pub fn App() -> impl IntoView {
     use components::Nav;
+    use pages::HomePage;
 
     view! {
         <Router>
@@ -26,7 +28,7 @@ pub fn App() -> impl IntoView {
 
             <main class="flex flex-col overflow-y-auto rounded-lg bg-primary [grid-area:main]">
                 <Routes>
-                    <Route path="/" view=|| view! {}/>
+                    <Route path="/" view=|| view! { <HomePage/> }/>
                 </Routes>
             </main>
 

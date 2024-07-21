@@ -8,5 +8,7 @@
     --color-base-light: 255 255 255;
     --color-background: 0 0 0;
     --color-primary: 23 23 23;
+    --color-primary-light: 38 38 38;
+    --color-secondary: 82 82 82;
   }
 }

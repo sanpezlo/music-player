@@ -11,7 +11,11 @@ module.exports = {
           light: "rgb(var(--color-base-light) / <alpha-value>)",
         },
         background: "rgb(var(--color-background) / <alpha-value>)",
-        primary: "rgb(var(--color-primary) / <alpha-value>)",
+        primary: {
+          DEFAULT: "rgb(var(--color-primary) / <alpha-value>)",
+          light: "rgb(var(--color-primary-light) / <alpha-value>)",
+        },
+        secondary: "rgb(var(--color-secondary) / <alpha-value>)",
       },
     },
   },
