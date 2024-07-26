@@ -6,9 +6,10 @@
   :root {
     --color-base: 163 163 163;
     --color-base-light: 255 255 255;
-    --color-background: 0 0 0;
-    --color-primary: 23 23 23;
-    --color-primary-light: 38 38 38;
+    --color-background: 23 23 23;
+    --color-background-dark: 0 0 0;
+    --color-background-light: 38 38 38;
+    --color-primary: 74 222 128;
     --color-secondary: 82 82 82;
   }
 }
